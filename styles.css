@@ -1,0 +1,61 @@
+body {
+    font-family: Pacifico;
+    margin: 0;
+    padding: 0;
+    background-image: url(https://64.media.tumblr.com/cd0edd63b58a03f7ab29dbca02d6765d/tumblr_nlfvwxPl9K1u289dqo1_500.png);
+color: #FDFBFE;
+}
+
+#header {
+    background-color:#EAC7FA;
+    color:#FDFBFE;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+#nav-bar {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.nav-link {
+    color:#FDFBFE;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+#video {
+    width: 100%;
+    max-width: 800px;
+    display: block;
+    margin: 0 auto;
+}
+
+#form {
+    text-align: center;
+    margin: 20px auto;
+}
+
+#email {
+    padding: 10px;
+    width: 100%;
+    max-width: 300px;
+    margin: 10px;
+    font-family: Pacifico;
+}
+
+#submit {
+    padding: 10px 20px;
+    background-color:#DC9FF7;
+    color:#FDFBFE;
+    border: none;
+    cursor: pointer;
+    font-family: Pacifico;
+}
+@media (max-width: 768px) {
+    /* Styles to apply when the screen width is 768 pixels or less */
